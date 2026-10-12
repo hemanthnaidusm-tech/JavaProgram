@@ -20,3 +20,5 @@ public	class GetSet extends GetSetq{
 		System.out.println(ss);
 		}
 	}
+
+

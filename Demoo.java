@@ -1,18 +1,19 @@
-package hemanth;
+package abcdndrjfd;
 
- class Demoo {
-	int a;public
-	int b;void m1(int c, int d){
-	    
+public class Demoo {
+	int a;
+	int b;
+	void m1(int c, int d) {
+		a=c;
+		b=d;
 	}
 	void m2() {
 		System.out.println(a+b);
 	}
 	
 	public static void main(String[] args) {
-		Demoo vv=new Demoo();
-		vv.m1(3);
-		vv.m2();
-	}
-
+	Demoo vv=new Demoo();
+	vv.m1(2, 3);
+	vv.m2();
+}
 }
